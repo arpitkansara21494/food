@@ -1,0 +1,407 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* font-family: Ubuntu; */
+    /* border: 2px solid black; */
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url("fonts/Ubuntu-L.ttf");
+}
+.bg-color{
+    background-color: #7287ae;
+    position: relative;
+}
+.sec1-img{
+    /* top: 100px; */
+    left: 100px;
+    position: absolute;
+}
+.sec1-img img{
+    margin-top: 110px;
+}
+
+    
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.justify
+{
+    justify-content: space-between;
+}
+.alighn{
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    padding: 3rem 0;
+}
+.text ul li{
+    display: inline-block;
+}
+.text ul li a{
+    color: white;
+    padding: 20px;
+    /* padding-right: 40px; */
+
+}
+.logo{
+    width: 5rem;
+}
+
+
+.mar-auto{
+    margin: 0 auto;
+}
+.txt-ali{
+    text-align: center;
+}
+
+
+
+.text-1 h2{
+    margin-top: 90px;
+    font-size: 95px;
+    line-height: 90px;
+    color: #ffffff;
+    /* font-weight: 700; */
+    /* font-family: "Ubuntu"; */
+    text-align: center;
+   
+}
+.text-1 p{
+    /* margin-top: 200px; */
+    color: white;
+    /* width: 70%; */
+    margin: 12px auto  ;
+    width: 690px;
+    /* height: 115px; */
+    font-size: 25px;
+    /* line-height:9; */
+    color: #ffffff;
+    /* font-weight: 400; */
+
+    text-align: center;
+}
+.curv svg{
+    display: block;
+}
+.b-cl{
+    background-color: #e4edc2;
+}
+.txt-ali{
+    margin: 0 auto;
+}
+.col-33{
+    width: 25%;
+    margin: 70px auto;
+
+}
+.img-33 img{
+    width: 100%;
+    display: block;
+    /* position: absolute; */
+}
+.txt-2 h2{
+    color: #7287ae;
+    font-size: 30px;
+}
+.t-1{
+    background-color: white;
+    padding-top: 25px;
+    width: 100%;
+    margin: 0 auto;
+}
+.t-1 h2{
+    color: black;
+    font-size: 20px;
+    /* margin-top: 10px; */
+}
+.t-1 p{
+    margin-top: 15px;
+    /* width: 90%; */
+    
+    
+}
+.btn{
+    padding: 70px 0;
+}
+.btn button{
+    border-radius: 38px;
+    padding: 10px 70px;
+    background-color: #7287aee0;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+.col-50{
+    width: 50%;
+}
+.im-1 img{
+    width: 100%;
+    display: block;
+}
+.t-3{
+    width: 87%;
+    margin: 0 auto;
+}
+.t-3 h2{
+    font-size: 58px;
+    color: #333333;
+    font-weight: 700;
+    /* box-shadow:5px 5px 10px rgba(109, 109, 52, 0.595); */
+
+
+}
+.t-3 p{
+    /* width: 640px; */
+    /* height: 175px; */
+    font-size: 2rem;
+    color: #333333;
+    margin-top: 20px;
+    /* font-weight: 400; */
+    
+}
+.btn-4 button{
+    border-radius: 38px; 
+    padding: 10px 70px;
+    background-color: #7287aee0;
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    /* box-shadow:5px 5px 10px yellow; */
+
+
+
+}
+.btn-4 button a:hover{
+    font-size: 22px;
+    color: white;
+   
+}
+.t-4{
+font-size: 2rem;
+color: #333333;
+/* font-weight: 700; */
+width: 80%;
+margin: 0 auto;
+}
+.t-4 p{
+    margin-top: 20px;
+}
+
+
+
+.shape2{
+    position: relative;
+}
+    .position{
+        position: absolute;
+        top: -47px;
+        left: 168px;
+        
+    }
+    .shape2 img{
+        width: 151px;
+        /* height: 100px */
+    }
+    
+
+
+    .shape3{
+        position: relative;
+    }
+        .position-1{
+            position: absolute;
+            top: -43px;
+            left: 256px;
+            
+        }
+        .shape3 img{
+            width: 151px;
+            /* height: 100px */
+        }
+
+
+        .shape-4{
+            position: relative;
+        }
+            .position-4{
+                position: absolute;
+                top: -50px;
+                right: 100px;
+                
+            }
+            .shape-4 img{
+                width: 151px;
+                /* height: 100px */
+            }
+
+            
+     
+            
+        .shape-5{
+            position: relative;
+        }
+            .position-5{
+                position: absolute;
+                bottom: 8px;
+                right: 916px;
+                
+            }
+            .shape-5 img{
+                width: 151px;
+                /* height: 100px */
+            }
+
+
+.h2 h2{
+    color: white;
+    margin-top: 40px;
+    /* box-shadow:5px 5px 10px rgba(0, 0, 0, 0.595); */
+
+}
+
+.clr-blu{
+    background-color: #7287aee0;
+}
+.icn h2{
+   color: white;
+   margin-top: 20px;
+   text-align: center;
+
+}
+.icn h3{
+    color: white;
+    text-align: center;
+}
+.icn p{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.i-12{
+    position: relative;
+}
+.im img{
+    width: 100%;
+    display: block;
+}
+.t-2{
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+}
+.t-2 h2{
+    font-size: 3.5rem;
+    color: #7287ae;
+    margin-top: 50px;
+
+    
+    /* width: 60%; */
+}
+.t-2 p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #7287ae;
+    margin-top: 20px;
+}
+.t-2 button{
+    border-radius: 38px;
+    padding: 10px 70px;
+    background-color: #7287aee0;
+    color: white;
+    font-size: 1rem;
+    margin-top: 35px;
+}
+
+.quote i{
+    font-size: 4rem;
+    color: #7287ae;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.quote p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #7287ae;
+    margin-top: 30px;
+
+
+}
+.quote h2{
+    font-size: 1.5rem;
+    color: #7287ae;
+    margin-top: 30px;
+
+}
+.curv-1 svg{
+    display: block;
+    background-color: #7287ae;
+}
+
+
+
+
+
+
+.ftr-color{
+   background-color: #7287ae;
+    color: white;
+    padding: 80px 50px;
+}
+.ftr-txt h3{
+    font-size: 30px;
+}
+.ftr-txt{
+    /* margin-top: 70px; */
+    width: 85%;
+    margin: 0 auto;
+}
+.ftr-txt p{
+padding-top: 1rem;
+width: 80%;
+}
+.cl-50 {    
+display: flex;
+
+/* font-family: ; */
+}
+.cl-50 h2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cl-50 li{
+padding-top: 10px;
+margin-top: 10px;
+color: rgb(190, 211, 230);
+}
+
+@media(max-width:768px){
+}
+@media only screen and(max-width:768px){
+    [class*="col-"]{
+        width: 100%;
+        
+    }
+    html{
+        font-size: 50%;
+    }
+}
